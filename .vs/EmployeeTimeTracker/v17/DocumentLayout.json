@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Jovan\\source\\repos\\EmployeeTimeTracker\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{767E14C6-395D-409B-9741-B847EFB1E5C6}|EmployeeTimeTracker\\EmployeeTimeTracker.csproj|c:\\users\\jovan\\source\\repos\\employeetimetracker\\employeetimetracker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{767E14C6-395D-409B-9741-B847EFB1E5C6}|EmployeeTimeTracker\\EmployeeTimeTracker.csproj|solutionrelative:employeetimetracker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{767E14C6-395D-409B-9741-B847EFB1E5C6}|EmployeeTimeTracker\\EmployeeTimeTracker.csproj|c:\\users\\jovan\\source\\repos\\employeetimetracker\\employeetimetracker\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{767E14C6-395D-409B-9741-B847EFB1E5C6}|EmployeeTimeTracker\\EmployeeTimeTracker.csproj|solutionrelative:employeetimetracker\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{767E14C6-395D-409B-9741-B847EFB1E5C6}|EmployeeTimeTracker\\EmployeeTimeTracker.csproj|c:\\users\\jovan\\source\\repos\\employeetimetracker\\employeetimetracker\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{767E14C6-395D-409B-9741-B847EFB1E5C6}|EmployeeTimeTracker\\EmployeeTimeTracker.csproj|solutionrelative:employeetimetracker\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{767E14C6-395D-409B-9741-B847EFB1E5C6}|EmployeeTimeTracker\\EmployeeTimeTracker.csproj|c:\\users\\jovan\\source\\repos\\employeetimetracker\\employeetimetracker\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{767E14C6-395D-409B-9741-B847EFB1E5C6}|EmployeeTimeTracker\\EmployeeTimeTracker.csproj|solutionrelative:employeetimetracker\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{767E14C6-395D-409B-9741-B847EFB1E5C6}|EmployeeTimeTracker\\EmployeeTimeTracker.csproj|c:\\users\\jovan\\source\\repos\\employeetimetracker\\employeetimetracker\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{767E14C6-395D-409B-9741-B847EFB1E5C6}|EmployeeTimeTracker\\EmployeeTimeTracker.csproj|solutionrelative:employeetimetracker\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{767E14C6-395D-409B-9741-B847EFB1E5C6}|EmployeeTimeTracker\\EmployeeTimeTracker.csproj|c:\\users\\jovan\\source\\repos\\employeetimetracker\\employeetimetracker\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{767E14C6-395D-409B-9741-B847EFB1E5C6}|EmployeeTimeTracker\\EmployeeTimeTracker.csproj|solutionrelative:employeetimetracker\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Jovan\\source\\repos\\EmployeeTimeTracker\\EmployeeTimeTracker\\Program.cs",
+              "RelativeDocumentMoniker": "EmployeeTimeTracker\\Program.cs",
+              "ToolTip": "C:\\Users\\Jovan\\source\\repos\\EmployeeTimeTracker\\EmployeeTimeTracker\\Program.cs",
+              "RelativeToolTip": "EmployeeTimeTracker\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T17:34:30.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Jovan\\source\\repos\\EmployeeTimeTracker\\EmployeeTimeTracker\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "EmployeeTimeTracker\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Jovan\\source\\repos\\EmployeeTimeTracker\\EmployeeTimeTracker\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "EmployeeTimeTracker\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-19T17:23:55.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Jovan\\source\\repos\\EmployeeTimeTracker\\EmployeeTimeTracker\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "EmployeeTimeTracker\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Jovan\\source\\repos\\EmployeeTimeTracker\\EmployeeTimeTracker\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "EmployeeTimeTracker\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-19T17:22:48.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Jovan\\source\\repos\\EmployeeTimeTracker\\EmployeeTimeTracker\\Views\\Employee\\Index.cshtml",
+              "RelativeDocumentMoniker": "EmployeeTimeTracker\\Views\\Employee\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Jovan\\source\\repos\\EmployeeTimeTracker\\EmployeeTimeTracker\\Views\\Employee\\Index.cshtml",
+              "RelativeToolTip": "EmployeeTimeTracker\\Views\\Employee\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-18T23:36:22.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\Jovan\\source\\repos\\EmployeeTimeTracker\\EmployeeTimeTracker\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "EmployeeTimeTracker\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\Jovan\\source\\repos\\EmployeeTimeTracker\\EmployeeTimeTracker\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "EmployeeTimeTracker\\Controllers\\EmployeeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA8AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T23:19:36.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\Jovan\\source\\repos\\EmployeeTimeTracker\\EmployeeTimeTracker\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "EmployeeTimeTracker\\Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\Jovan\\source\\repos\\EmployeeTimeTracker\\EmployeeTimeTracker\\Models\\Employee.cs",
+              "RelativeToolTip": "EmployeeTimeTracker\\Models\\Employee.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T23:18:05.555Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+﻿@model IEnumerable<EmployeeTimeTracker.Models.Employee>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Employee time tracker</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.EmployeeName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TotalTimeWorked)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+            <tr class="@((item.TotalTimeWorked < 100) ? "red-row" : "")">
+            <td>
+                @Html.DisplayFor(modelItem => item.EmployeeName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TotalTimeWorked)
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
