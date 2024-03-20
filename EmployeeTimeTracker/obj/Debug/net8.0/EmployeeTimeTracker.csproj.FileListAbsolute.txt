@@ -223,3 +223,11 @@ C:\Users\Jovan\source\repos\EmployeeTimeTracker\EmployeeTimeTracker\obj\Debug\ne
 C:\Users\Jovan\source\repos\EmployeeTimeTracker\EmployeeTimeTracker\obj\Debug\net8.0\EmployeeTimeTracker.pdb
 C:\Users\Jovan\source\repos\EmployeeTimeTracker\EmployeeTimeTracker\obj\Debug\net8.0\EmployeeTimeTracker.genruntimeconfig.cache
 C:\Users\Jovan\source\repos\EmployeeTimeTracker\EmployeeTimeTracker\obj\Debug\net8.0\ref\EmployeeTimeTracker.dll
+C:\Users\Jovan\source\repos\EmployeeTimeTracker\EmployeeTimeTracker\obj\Debug\net8.0\EmployeeTimeTracker.sourcelink.json
+C:\Users\Jovan\source\repos\EmployeeTimeTracker\EmployeeTimeTracker\bin\Debug\net8.0\LiveCharts.dll
+C:\Users\Jovan\source\repos\EmployeeTimeTracker\EmployeeTimeTracker\bin\Debug\net8.0\PuppeteerSharp.dll
+C:\Users\Jovan\source\repos\EmployeeTimeTracker\EmployeeTimeTracker\bin\Debug\net8.0\SkiaSharp.dll
+C:\Users\Jovan\source\repos\EmployeeTimeTracker\EmployeeTimeTracker\bin\Debug\net8.0\runtimes\osx\native\libSkiaSharp.dylib
+C:\Users\Jovan\source\repos\EmployeeTimeTracker\EmployeeTimeTracker\bin\Debug\net8.0\runtimes\win-arm64\native\libSkiaSharp.dll
+C:\Users\Jovan\source\repos\EmployeeTimeTracker\EmployeeTimeTracker\bin\Debug\net8.0\runtimes\win-x64\native\libSkiaSharp.dll
+C:\Users\Jovan\source\repos\EmployeeTimeTracker\EmployeeTimeTracker\bin\Debug\net8.0\runtimes\win-x86\native\libSkiaSharp.dll

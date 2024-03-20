@@ -17,7 +17,9 @@ namespace EmployeeTimeTracker.Controllers
         }
         [HttpGet]
         public IActionResult Index()
+
         {
+            //Fetching the data
             List<Employee> employees = new List<Employee>();
             HttpResponseMessage response = _client.GetAsync(baseAdress).Result;
 
@@ -27,7 +29,7 @@ namespace EmployeeTimeTracker.Controllers
                 employees = JsonConvert.DeserializeObject<List<Employee>>(data);
 
                 var groupedEmployees = employees
-                    .Where(e => e.EmployeeName != null) // Filter out entries with null EmployeeName
+                    .Where(e => e.EmployeeName != null) // Filter out entries with null EmployeeName(option)
                     .GroupBy(e => e.EmployeeName)
                     .Select(group => new Employee
                     {
@@ -35,7 +37,7 @@ namespace EmployeeTimeTracker.Controllers
                         TotalTimeWorked = Math.Round(group.Sum(e => (e.EndTimeUtc - e.StarTimeUtc).TotalHours), 2)
                     })
                     .OrderByDescending(e => e.TotalTimeWorked)
-                    .ToList();
+                    .ToList();            
 
                 return View(groupedEmployees);
             }

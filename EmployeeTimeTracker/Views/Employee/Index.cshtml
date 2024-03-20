@@ -1,4 +1,5 @@
 ﻿@model IEnumerable<EmployeeTimeTracker.Models.Employee>
+@using SkiaSharp;
 
 @{
     ViewData["Title"] = "Index";
@@ -31,3 +32,103 @@
 }
     </tbody>
 </table>
+
+@{
+    var labels = new List<string>();
+    var data = new List<int>();
+
+    foreach (var item in Model)
+    {
+        labels.Add(item.EmployeeName);
+        data.Add((int)item.TotalTimeWorked);
+    }
+
+    // Create SKBitmap object
+    using (var bitmap = new SkiaSharp.SKBitmap(800, 600))
+    using (var canvas = new SkiaSharp.SKCanvas(bitmap))
+    {
+        // Clear the canvas
+        canvas.Clear(SkiaSharp.SKColors.White);
+
+        // Calculate total time worked
+        var total = data.Sum();
+
+        // Define colors for the slices
+        var colors = new SkiaSharp.SKColor[]
+        {
+            SkiaSharp.SKColors.Red,
+            SkiaSharp.SKColors.Blue,
+            SkiaSharp.SKColors.Green,
+            SkiaSharp.SKColors.Orange,
+            SkiaSharp.SKColors.Purple,
+            SkiaSharp.SKColors.Yellow
+        };
+
+        // Draw the pie chart
+        var startAngle = -90.0f; // Start angle for the first slice
+        for (int i = 0; i < data.Count; i++)
+        {
+            float sweepAngle = (float)(360.0 * data[i] / total);
+
+            // Calculate color
+            var color = colors[i % colors.Length]; // Use a predefined color from the array
+
+            // Create SKPaint object for drawing
+            using (var paint = new SkiaSharp.SKPaint())
+            {
+                paint.Color = color;
+
+                // Draw pie slice
+                var rect = new SkiaSharp.SKRect(200, 100, 600, 500);
+                canvas.DrawArc(rect, startAngle, sweepAngle, true, paint);
+
+                // Calculate label position
+                var labelAngle = startAngle + sweepAngle / 2;
+                var labelRadius = 200; // Distance from center of the pie chart
+                var labelX = (float)(400 + labelRadius * Math.Cos(labelAngle * Math.PI / 180));
+                var labelY = (float)(300 + labelRadius * Math.Sin(labelAngle * Math.PI / 180));
+
+                // Draw label
+                using (var textPaint = new SkiaSharp.SKPaint())
+                {
+                    textPaint.Color = SkiaSharp.SKColors.Black;
+                    textPaint.TextSize = 14;
+                    textPaint.TextAlign = SkiaSharp.SKTextAlign.Center;
+
+                    var percentage = (data[i] * 100.0 / total).ToString("0.##");
+                    var labelText = $"{labels[i]} ({percentage}%)";
+
+                    // Calculate label width and height
+                    var textBounds = new SkiaSharp.SKRect();
+                    textPaint.MeasureText(labelText, ref textBounds);
+
+                    // Adjust label position if it's too close to the pie chart
+                    if (labelX - textBounds.Width / 2 < 200)
+                    {
+                        labelX = 200 + textBounds.Width / 2;
+                    }
+
+                    canvas.DrawText(labelText, labelX, labelY + textBounds.Height / 2, textPaint);
+                }
+
+                // Update start angle for next slice
+                startAngle += sweepAngle;
+            }
+        }
+
+        // Save the bitmap as a PNG file
+        var filePath = System.IO.Path.Combine(Environment.CurrentDirectory, "Charts", "EmployeeTimeTracker.png");
+        using (var image = SkiaSharp.SKImage.FromBitmap(bitmap))
+        using (var dataStream = System.IO.File.OpenWrite(filePath))
+        {
+            image.Encode(SkiaSharp.SKEncodedImageFormat.Png, 100).SaveTo(dataStream);
+        }
+    }
+}
+
+
+
+
+
+
+
